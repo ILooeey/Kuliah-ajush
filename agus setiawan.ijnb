@@ -1,0 +1,88 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 5,
+  "metadata": {
+    "language_info": {
+      "name": "java"
+    }
+  },
+  "cells": [
+    {
+      "id": "78e77f80-6175-4e0c-ac1d-a789ee79a328",
+      "cell_type": "markdown",
+      "source": "#Tugas Agus Setiawan",
+      "metadata": {
+        "language": "markdown",
+        "id": "78e77f80-6175-4e0c-ac1d-a789ee79a328"
+      }
+    },
+    {
+      "id": "ade6bd58-e591-4993-a0b8-8537aea60d57",
+      "cell_type": "code",
+      "source": "// Point 1 membuat deklarasi variabel int StrukturBaris\r\nint[][] StrukturBaris = new int[1][1]; \r\n\r\n// Point 2 membuat deklarasi variabel string KataBaru\r\nString[][] KataBaru = new String[1][1];\r\nKataBaru[0][0] = \"Agus\";\r\n",
+      "metadata": {
+        "language": "java",
+        "id": "ade6bd58-e591-4993-a0b8-8537aea60d57",
+        "executionSummary": {
+          "executionOrder": 10,
+          "success": true
+        }
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 10
+        }
+      ]
+    },
+    {
+      "id": "5c733599-9a74-4220-ac32-90c3043a69c8",
+      "cell_type": "code",
+      "source": "//Point 3\r\nint[] EmpatAngka = new int[4];\r\nEmpatAngka[0] = 05;\r\nEmpatAngka[1] = 10;\r\nEmpatAngka[2] = 20;\r\nEmpatAngka[3] = 31;\r\n\r\nSystem.out.println(\"Isi Angka Point 3: \" + Arrays.toString(EmpatAngka));\r\n\r\n//Point4\r\nString[][] Angka = new String[3][3];\r\nAngka[0][0] = \"05, 3\";\r\nAngka[0][1] = \"5, 14\";\r\nAngka[0][2] = \"19, 20\";\r\n\r\n// Baris 2 (Indeks 1)\r\nAngka[1][0] = \"22, 27\";\r\nAngka[1][1] = \"31\";\r\nSystem.out.println(\"Isi Angka: \" + Arrays.deepToString(Angka));",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 51,
+          "success": true
+        }
+      },
+      "execution_count": 51,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "Isi Angka Point 3: [5, 10, 20, 31]\r\nIsi Angka: [[05, 3, 5, 14, 19, 20], [22, 27, 31, null], [null, null, null]]\r\n"
+          },
+          "metadata": {},
+          "execution_count": 51
+        }
+      ]
+    },
+    {
+      "id": "4e371599-e931-4e37-a4d9-150a890e1f10",
+      "cell_type": "code",
+      "source": "import java.util.LinkedList; \r\n\r\nLinkedList<Integer> listAngka = new LinkedList<>();\r\nlistAngka.add(5);\r\nlistAngka.add(19);\r\nlistAngka.add(44); \r\nlistAngka.add(60); \r\nlistAngka.add(31);\r\n\r\nSystem.out.println(\"Isi LinkedList: \" + listAngka);",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 39,
+          "success": true
+        }
+      },
+      "execution_count": 39,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "Isi LinkedList: [5, 19, 44, 60, 31]\r\n"
+          },
+          "metadata": {},
+          "execution_count": 39
+        }
+      ]
+    }
+  ]
+}
